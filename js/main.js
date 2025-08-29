@@ -1,4 +1,4 @@
-// Hamburger toggle
+
 const hamburger = document.querySelector('.hamburger');
 // const navLinks = document.querySelector('.nav-links');
 
@@ -6,7 +6,7 @@ hamburger.addEventListener('click', () => {
   navLinks.classList.toggle('active');
 });
 
-// Package filter
+
 const filterButtons = document.querySelectorAll('.filter-btn');
 const packageCards = document.querySelectorAll('.package-card');
 
@@ -27,7 +27,7 @@ filterButtons.forEach(btn => {
 
 
 
-// Fade-In Sections
+
 const fadeSections = document.querySelectorAll('.fade-section');
 window.addEventListener('scroll', () => {
   fadeSections.forEach(section => {
@@ -38,14 +38,14 @@ window.addEventListener('scroll', () => {
   });
 });
 
-// Active Navbar Highlight
+
 const sections = document.querySelectorAll('section');
 const navLinks = document.querySelectorAll('.nav-links li a');
 
 window.addEventListener('scroll', () => {
   let current = '';
   sections.forEach(section => {
-    const sectionTop = section.offsetTop - 120; // adjust for sticky navbar
+    const sectionTop = section.offsetTop - 120; 
     if (window.pageYOffset >= sectionTop) {
       current = section.getAttribute('id');
     }
