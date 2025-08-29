@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Circler Vista Travels</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <div class="logo">Circler Vista Travels</div>
+      <nav class="navbar">
+        <div class="nav-container">
+            <!-- Logo + Book Now on the left -->
+            <div class="logo-cta">
+            <a href="#" class="brand">Circler Vista Travels</a>
+            <a href="#contact" class="btn btn-primary">Book Now</a>
+            </div>
+
+            <!-- Navigation links on the right -->
+            <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <!-- Hamburger for mobile -->
+            <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+        </div>
+        </nav>
+
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero fade-section" id="home">
+    <div class="hero-overlay">
+        <div class="hero-content">
+        <h1>Luxury & Family Vacations, Curated for You</h1>
+        <p>Explore Chandigarh’s premium travel experiences</p>
+        <div class="hero-buttons">
+            <a href="#packages" class="btn btn-gold">View Packages</a>
+            <a href="#contact" class="btn btn-outline">Enquire Now</a>
+        </div>
+        </div>
+    </div>
+    </section>
+
+
+  <!-- Featured Packages -->
+  <section class="packages fade-section" id="packages">
+    <div class="container">
+      <h2>Featured Packages</h2>
+      <div class="package-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="Luxury">Luxury</button>
+        <button class="filter-btn" data-filter="Family">Family</button>
+        <button class="filter-btn" data-filter="Corporate">Corporate</button>
+      </div>
+      <div class="package-grid">
+        <div class="package-card" data-category="Luxury">
+          <img src="images/maldives.jpg" alt="Maldives Luxury">
+          <div class="card-content">
+            <h3>Maldives Luxury</h3>
+            <p>5 nights, 6 days</p>
+            <a href="#contact" class="btn btn-primary">Enquire Now</a>
+          </div>
+        </div>
+        <div class="package-card" data-category="Luxury">
+          <img src="images/paris.jpg" alt="Paris Romantic">
+          <div class="card-content">
+            <h3>Paris Romantic</h3>
+            <p>4 nights, 5 days</p>
+            <a href="#contact" class="btn btn-primary">Enquire Now</a>
+          </div>
+        </div>
+        <div class="package-card" data-category="Family">
+          <img src="images/bali.jpg" alt="Bali Adventure">
+          <div class="card-content">
+            <h3>Bali Adventure</h3>
+            <p>6 nights, 7 days</p>
+            <a href="#contact" class="btn btn-primary">Enquire Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+    <section class="services fade-section" id="services">
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+        <div class="service-card">
+            <img src="images/luxury.jpg" alt="Luxury Vacations">
+            <h3>Luxury Vacations</h3>
+            <p>Premium destinations & accommodations</p>
+        </div>
+        <div class="service-card">
+            <img src="images/family.jpg" alt="Family Holidays">
+            <h3>Family Holidays</h3>
+            <p>Fun-filled family experiences</p>
+        </div>
+        <div class="service-card">
+            <img src="images/corporate.jpg" alt="Corporate Travel">
+            <h3>Corporate Travel</h3>
+            <p>Efficient corporate travel planning</p>
+        </div>
+        </div>
+    </div>
+    </section>
+
+
+  <!-- About Section -->
+  <section class="about" id="about fade-section">
+    <div class="container about-container">
+      <div class="about-text">
+        <h2>About Us</h2>
+        <p>Circler Vista Travels offers luxury vacations, family holidays, and corporate travel solutions based in Chandigarh.</p>
+        <div class="about-cards">
+          <div class="about-card"><h4>Our Mission</h4><p>Deliver memorable travel experiences.</p></div>
+          <div class="about-card"><h4>Our Team</h4><p>Experienced travel consultants.</p></div>
+          <div class="about-card"><h4>Testimonials</h4><p>Trusted by clients worldwide.</p></div>
+        </div>
+      </div>
+      <div class="about-image">
+        <img src="images/travel-hero.jpg" alt="About Travel">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact fade-section" id="contact fade-section">
+    <div class="container contact-container">
+      <div class="contact-info">
+        <h2>Contact Us</h2>
+        <p><strong>Address:</strong> 123, Travel Street, Chandigarh, India</p>
+        <p><strong>Phone:</strong> +91 9876543210</p>
+        <p><strong>Email:</strong> info@circlervista.com</p>
+        <iframe src="https://maps.google.com/maps?q=chandigarh&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <form class="booking-form">
+        <h3>Book Your Trip</h3>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="tel" placeholder="Phone" required>
+        <select required>
+          <option value="">Package Preference</option>
+          <option value="Luxury">Luxury Vacation</option>
+          <option value="Family">Family Holiday</option>
+          <option value="Corporate">Corporate Travel</option>
+        </select>
+        <input type="text" placeholder="Travel Dates">
+        <textarea placeholder="Message"></textarea>
+        <button type="submit" class="btn btn-gold">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-container">
+      <p>© 2025 Circler Vista Travels</p>
+      <div class="social-links">
+        <a href="#"><img src="icons/facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
