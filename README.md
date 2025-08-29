@@ -3,7 +3,10 @@
 This is a **frontend-only travel website** for Circler Vista Travels.  
 Built with **HTML, CSS, and minimal JavaScript** to showcase packages, services, and booking forms.  
 
-## Screenshots
+## Homepage
 
-![Homepage](ss/s1.png)  
-![Packages Section](ss/s2.png)
+![Homepage](ss/ss1.png)  
+
+## Packages
+
+![Packages](ss/ss2.png)
